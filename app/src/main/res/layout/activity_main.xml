@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="@dimen/arrow_button_size"
+        android:layout_height="@dimen/item_size"
+        android:src="@android:drawable/ic_media_previous"
+        tools:ignore="ContentDescription"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpCarousel"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/item_size"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:paddingStart="@dimen/lateral_margin"
+        android:paddingEnd="@dimen/lateral_margin"/>
+
+    <ImageView
+        android:id="@+id/ivNext"
+        android:layout_width="@dimen/arrow_button_size"
+        android:layout_height="@dimen/item_size"
+        android:src="@android:drawable/ic_media_next"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>

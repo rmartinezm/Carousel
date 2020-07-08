@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lateral_margin">90dp</dimen>
+    <dimen name="item_size">85dp</dimen>
+    <dimen name="arrow_button_size">60dp</dimen>
+</resources>
